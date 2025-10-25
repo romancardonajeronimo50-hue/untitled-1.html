@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explicacion De Cliclos</title>
+</head>
+<body>
+  <h1>Ejemplo de ciclos clase 1 (While, For y Do...While)</h1>
+  <p>Selecciona Cada Ciclo Para Ver Su Funcionamiento.</p>
+
+  <button onclick="cicloWhile()">Ciclo WHILE</button>
+  <button onclick="cicloFor()">Ciclo FOR</button>
+  <button onclick="cicloDoWhile()">Ciclo DO WHILE</button>
+
+  <div id="resultado" style="margin-top:20px; font-size:18px;"></div>
+
+  <script>
+    // Ejemplo 1: WHILE
+    function cicloWhile() {
+      let numero = 1;
+      let texto = "Resultado del ciclo WHILE:<br>";
+
+      while (numero <= 1000) { // se repite mientras numero sea menor o igual a 1000s
+        texto += "Estoy en la vuelta número: " + numero + "<br>";
+        numero++; // aumenta en 1 cada vez
+      }
+
+      document.getElementById("resultado").innerHTML = texto;
+    }
+
+    // Ejemplo 2: FOR
+    function cicloFor() {
+      let texto = "Resultado del ciclo FOR:<br>";
+
+      for (let i = 1; i <= 3; i++) { // se repite 3 veces
+        texto += "Iteración: " + i + "<br>";
+      }
+
+      document.getElementById("resultado").innerHTML = texto;
+    }
+
+    // Ejemplo 3: DO WHILE
+    function cicloDoWhile() {
+      let numero = 1;
+      let texto = "Resultado del ciclo DO WHILE:<br>";
+   
+      
+      do {
+        texto += "Ejecución número: " + numero + "<br>";
+        numero++;
+      } while (numero <= 3); // la condición se evalúa al final
+
+      document.getElementById("resultado").innerHTML = texto;
+    }
+  </script>
+</body>
+</html>
