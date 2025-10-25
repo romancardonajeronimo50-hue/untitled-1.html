@@ -1,7 +1,7 @@
 Nombre: Jerónimo Román Cardona
 Curso: Técnica en el Software
 Universidad: UNIREMINGTON
-Fecha: 24/10/2025
+Fecha: 15/10/2025
 Yo desarrollé una página web interactiva utilizando HTML, CSS básico en línea y JavaScript, Con las indicaciones del profesor cuyo propósito es explicar de manera visual 
 y práctica el funcionamiento de los ciclos más utilizados en programación: WHILE, FOR y DO WHILE. La interfaz contiene tres botones que el usuario puede seleccionar
 para ver cómo se ejecuta cada ciclo, mostrando en pantalla el número de iteraciones realizadas y el comportamiento específico de cada estructura. El ciclo WHILE se repite
